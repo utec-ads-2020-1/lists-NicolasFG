@@ -1,5 +1,7 @@
 #include <iostream>
 #include "test/tester.h"
+#include "stack.h"
+#include "queue.h"
 
 using namespace std;
 
@@ -9,5 +11,6 @@ int main(int argc, char *argv[]) {
     cout << "===========================================================" << endl << endl;
 
     Tester::execute();
+
     return EXIT_SUCCESS;
 }

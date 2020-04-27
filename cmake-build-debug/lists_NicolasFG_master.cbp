@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lists_NicolasFG_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lists_NicolasFG_master">
+				<Option output="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/lists_NicolasFG_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/mock"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/iterators"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/test"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 lists_NicolasFG_master"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lists_NicolasFG_master/fast">
+				<Option output="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/lists_NicolasFG_master.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/mock"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/iterators"/>
+					<Add directory="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/test"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 lists_NicolasFG_master/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/main.cpp">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/mock/mocker.cpp">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/mock/mocker.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/circular.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/forward.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/iterator.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/iterators/bidirectional_iterator.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/iterators/forward_iterator.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/linked.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/list.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/lists/node.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/queue.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/structures/stack.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/test/tester.cpp">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/test/tester.h">
+			<Option target="lists_NicolasFG_master"/>
+		</Unit>
+		<Unit filename="C:/Users/Nicolas-PC/Desktop/lists-NicolasFG-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
