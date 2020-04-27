@@ -10,9 +10,10 @@ class List {
         Node<T>* head;
         Node<T>* tail;
         int nodes;
+        bool no_ordenado;
 
     public:
-        List() : head(nullptr), tail(nullptr), nodes(0) {};
+        List() : head(nullptr), tail(nullptr), nodes(0), no_ordenado(true) {};
         ~List();
 
         virtual T front() = 0;
@@ -28,6 +29,19 @@ class List {
         virtual void sort() = 0;
         virtual void reverse() = 0;
         virtual string name() = 0;
+
+
 };
+
+template <typename T>
+List<T>::~List() {
+    for(int i = 0; i < this->nodes; i++)
+    {
+        auto temp = this->head;
+        this->head = this->head->next;
+        delete temp;
+    }
+    delete head;
+}
 
 #endif
