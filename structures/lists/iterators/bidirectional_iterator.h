@@ -34,6 +34,7 @@ public:
     };
 
     T operator*(){
+        // Si current es nullptr?
         return this->current->data;
     };
 };

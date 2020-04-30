@@ -37,10 +37,12 @@ template <typename T>
 List<T>::~List() {
     for(int i = 0; i < this->nodes; i++)
     {
+        // Podías mejorarlo
         auto temp = this->head;
         this->head = this->head->next;
         delete temp;
     }
+
     delete head;
 }
 

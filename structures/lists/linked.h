@@ -72,7 +72,8 @@ public:
     //Listo
     void pop_front(){
         if(!empty())
-        {
+        { 
+            // Se  puede reducir
             auto temp = this->head;
             if(size() > 1)
             {
@@ -209,6 +210,8 @@ public:
     }
     //Listo
     void merge(LinkedList<T>&linked){
+        // No es la idea
+    
         for(int i = 0; i < linked.size();i++)
         {
             this->push_back(linked[i]);

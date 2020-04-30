@@ -1,7 +1,5 @@
 #include <iostream>
 #include "test/tester.h"
-#include "stack.h"
-#include "queue.h"
 
 using namespace std;
 
